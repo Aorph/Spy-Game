@@ -1,0 +1,90 @@
+html {
+  background-color: lightyellow;
+}
+
+form, p, h3, h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  text-align: center;
+  width : 20%;
+  height: 30px;
+  margin: 5px 5px 5px 5px;
+}
+
+.boxes {
+  width : 100px;
+  height: 100px;
+  margin: 3px 3px 3px 3px;
+  background-image: url('/pics/chest.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: none;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.SecretPlan {
+  width: 350px;
+  height: 350px;
+  background-image: url('/pics/secretMap.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.empty {
+  width: 350px;
+  height: 350px;
+  background-image: url('/pics/emptyChest.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.enemy {
+  width: 350px;
+  height: 350px;
+  background-image: url('/pics/enemy.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.hidden {
+  width: 350px;
+  height: 350px;
+  background-image: url('/pics/cloud.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.riposte {
+  width: 350px;
+  height: 350px;
+  background-image: url('/pics/attack.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.knockOut {
+  width: 350px;
+  height: 350px;
+  background-image: url('/pics/knock.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.dead {
+  width: 350px;
+  height: 350px;
+  background-image: url('/pics/ghost.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
